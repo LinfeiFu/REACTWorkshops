@@ -1,6 +1,6 @@
 # React Workshops 🚀
 
-Welcome to my React Workshops Showcase! This repository includes four mini-projects that focus on core React concepts, implemented as part of a learning journey through different workshops.
+Welcome to my React Workshops Showcase! This repository includes three mini-projects that focus on core React concepts, implemented as part of a learning journey through different workshops.
 
 ---
 
@@ -52,12 +52,14 @@ Build a simple cashflow tracker to monitor income and expenses and display a run
 
 ## 🔧 Technologies Used:
 
-- **React**: For building the user interface.
-- **Redux** (where applicable): For global state management.
-- **React Hooks** (`useState`, `useEffect`): For managing state and side effects.
-- **CSS** (Tailwind CSS): For styling components.
-- **LocalStorage**: For data persistence across sessions.
-
+- **React**: Core framework for building the user interface and managing component-based architecture.
+- **React Hooks**:
+  - **`useState`**: For managing state within individual components.
+  - **`useEffect`**: For handling side effects like data fetching and re-rendering based on dependency changes.
+  - **`useReducer`**: For managing more complex state logic, particularly for applications that require multiple actions and state updates (used in the Cashflow Tracker project).
+  - **`useContext`**: For creating a centralized state and passing it across multiple components without prop drilling, ensuring more scalable state management.
+- **CSS**: For responsive and modern component styling.
+- **LocalStorage**: For persisting data across browser sessions, ensuring the application state remains intact even after page reloads.
 ---
 
 ## 🛠️ How to Run the Project
@@ -75,14 +77,3 @@ Build a simple cashflow tracker to monitor income and expenses and display a run
    ```bash
    npm start
 Now you can view the app in your browser at http://localhost:3000!
-
----
-
-## 🌟 What I Gained From These Workshops:
-
-These React workshops helped me deepen my understanding of fundamental concepts such as:
-
-- **State management**: Using `useState` and `Redux` for effectively managing component and global states.
-- **Component-based architecture**: Understanding prop drilling and child-to-parent communication to create well-structured React components.
-- **React Hooks**: Leveraging `useEffect` for handling side effects and ensuring certain functionalities trigger upon state changes.
-- **Optimizing performance**: Minimizing unnecessary re-renders and reducing the number of database or API calls to build more efficient and scalable applications.
